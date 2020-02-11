@@ -1,0 +1,4 @@
+grant codebase "file:/root/SecurityJavaAssign1_SOLUTION/code/-" {
+	permission java.io.FilePermission "../data/*", "read,write,delete";
+	permission java.io.FilePermission "../data", "read";
+};
